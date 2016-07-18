@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A8AEB941CA2734C00D81654 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8AEB931CA2734C00D81654 /* main.m */; };
+		0A8AEB971CA2734C00D81654 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8AEB961CA2734C00D81654 /* AppDelegate.m */; };
+		0A8AEB9A1CA2734C00D81654 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8AEB991CA2734C00D81654 /* ViewController.m */; };
+		0A8AEB9D1CA2734C00D81654 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A8AEB9B1CA2734C00D81654 /* Main.storyboard */; };
+		0A8AEB9F1CA2734C00D81654 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A8AEB9E1CA2734C00D81654 /* Assets.xcassets */; };
+		0A8AEBA21CA2734C00D81654 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A8AEBA01CA2734C00D81654 /* LaunchScreen.storyboard */; };
+		0A8AEBAD1CA2734C00D81654 /* PanGestureRecognizerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8AEBAC1CA2734C00D81654 /* PanGestureRecognizerTests.m */; };
+		0A8AEBB81CA2734C00D81654 /* PanGestureRecognizerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8AEBB71CA2734C00D81654 /* PanGestureRecognizerUITests.m */; };
+		0A8AEBC71CA274D900D81654 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8AEBC61CA274D900D81654 /* RootViewController.m */; };
+		0A8AEBCE1CA275CD00D81654 /* CustomNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8AEBCD1CA275CD00D81654 /* CustomNavigationController.m */; };
+		0A8AEBD21CA2763E00D81654 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8AEBD11CA2763E00D81654 /* HomeViewController.m */; };
+		0A8AEBD51CA2765E00D81654 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8AEBD41CA2765E00D81654 /* SecondViewController.m */; };
+		0A8AEBD81CA2766E00D81654 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8AEBD71CA2766E00D81654 /* ThirdViewController.m */; };
+		0A8AEBDB1CA2767F00D81654 /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8AEBDA1CA2767F00D81654 /* FourViewController.m */; };
+		0A8AEBDE1CA27EA700D81654 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8AEBDD1CA27EA700D81654 /* NextViewController.m */; };
+		0A8AEBE11CA287A200D81654 /* TheNextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8AEBE01CA287A200D81654 /* TheNextViewController.m */; };
+		0A8AEBE41CA2D13600D81654 /* CustomTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8AEBE31CA2D13600D81654 /* CustomTabbarController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A8AEBA91CA2734C00D81654 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A8AEB871CA2734C00D81654 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A8AEB8E1CA2734C00D81654;
+			remoteInfo = PanGestureRecognizer;
+		};
+		0A8AEBB41CA2734C00D81654 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A8AEB871CA2734C00D81654 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A8AEB8E1CA2734C00D81654;
+			remoteInfo = PanGestureRecognizer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A8AEB8F1CA2734C00D81654 /* PanGestureRecognizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PanGestureRecognizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A8AEB931CA2734C00D81654 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A8AEB951CA2734C00D81654 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0A8AEB961CA2734C00D81654 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0A8AEB981CA2734C00D81654 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0A8AEB991CA2734C00D81654 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0A8AEB9C1CA2734C00D81654 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0A8AEB9E1CA2734C00D81654 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A8AEBA11CA2734C00D81654 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A8AEBA31CA2734C00D81654 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A8AEBA81CA2734C00D81654 /* PanGestureRecognizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PanGestureRecognizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A8AEBAC1CA2734C00D81654 /* PanGestureRecognizerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PanGestureRecognizerTests.m; sourceTree = "<group>"; };
+		0A8AEBAE1CA2734C00D81654 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A8AEBB31CA2734C00D81654 /* PanGestureRecognizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PanGestureRecognizerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A8AEBB71CA2734C00D81654 /* PanGestureRecognizerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PanGestureRecognizerUITests.m; sourceTree = "<group>"; };
+		0A8AEBB91CA2734C00D81654 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A8AEBC51CA274D900D81654 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		0A8AEBC61CA274D900D81654 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		0A8AEBCC1CA275CD00D81654 /* CustomNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNavigationController.h; sourceTree = "<group>"; };
+		0A8AEBCD1CA275CD00D81654 /* CustomNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNavigationController.m; sourceTree = "<group>"; };
+		0A8AEBD01CA2763E00D81654 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		0A8AEBD11CA2763E00D81654 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		0A8AEBD31CA2765E00D81654 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		0A8AEBD41CA2765E00D81654 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		0A8AEBD61CA2766E00D81654 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		0A8AEBD71CA2766E00D81654 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		0A8AEBD91CA2767F00D81654 /* FourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
+		0A8AEBDA1CA2767F00D81654 /* FourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
+		0A8AEBDC1CA27EA700D81654 /* NextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		0A8AEBDD1CA27EA700D81654 /* NextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
+		0A8AEBDF1CA287A200D81654 /* TheNextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheNextViewController.h; sourceTree = "<group>"; };
+		0A8AEBE01CA287A200D81654 /* TheNextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheNextViewController.m; sourceTree = "<group>"; };
+		0A8AEBE21CA2D13600D81654 /* CustomTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTabbarController.h; sourceTree = "<group>"; };
+		0A8AEBE31CA2D13600D81654 /* CustomTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTabbarController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A8AEB8C1CA2734C00D81654 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A8AEBA51CA2734C00D81654 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A8AEBB01CA2734C00D81654 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A8AEB861CA2734C00D81654 = {
+			isa = PBXGroup;
+			children = (
+				0A8AEB911CA2734C00D81654 /* PanGestureRecognizer */,
+				0A8AEBAB1CA2734C00D81654 /* PanGestureRecognizerTests */,
+				0A8AEBB61CA2734C00D81654 /* PanGestureRecognizerUITests */,
+				0A8AEB901CA2734C00D81654 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A8AEB901CA2734C00D81654 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A8AEB8F1CA2734C00D81654 /* PanGestureRecognizer.app */,
+				0A8AEBA81CA2734C00D81654 /* PanGestureRecognizerTests.xctest */,
+				0A8AEBB31CA2734C00D81654 /* PanGestureRecognizerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A8AEB911CA2734C00D81654 /* PanGestureRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				0A8AEBCF1CA275D500D81654 /* Other */,
+				0A8AEBC51CA274D900D81654 /* RootViewController.h */,
+				0A8AEBC61CA274D900D81654 /* RootViewController.m */,
+				0A8AEBCC1CA275CD00D81654 /* CustomNavigationController.h */,
+				0A8AEBCD1CA275CD00D81654 /* CustomNavigationController.m */,
+				0A8AEBE21CA2D13600D81654 /* CustomTabbarController.h */,
+				0A8AEBE31CA2D13600D81654 /* CustomTabbarController.m */,
+				0A8AEBD01CA2763E00D81654 /* HomeViewController.h */,
+				0A8AEBD11CA2763E00D81654 /* HomeViewController.m */,
+				0A8AEBDC1CA27EA700D81654 /* NextViewController.h */,
+				0A8AEBDD1CA27EA700D81654 /* NextViewController.m */,
+				0A8AEBDF1CA287A200D81654 /* TheNextViewController.h */,
+				0A8AEBE01CA287A200D81654 /* TheNextViewController.m */,
+				0A8AEBD31CA2765E00D81654 /* SecondViewController.h */,
+				0A8AEBD41CA2765E00D81654 /* SecondViewController.m */,
+				0A8AEBD61CA2766E00D81654 /* ThirdViewController.h */,
+				0A8AEBD71CA2766E00D81654 /* ThirdViewController.m */,
+				0A8AEBD91CA2767F00D81654 /* FourViewController.h */,
+				0A8AEBDA1CA2767F00D81654 /* FourViewController.m */,
+				0A8AEB921CA2734C00D81654 /* Supporting Files */,
+			);
+			path = PanGestureRecognizer;
+			sourceTree = "<group>";
+		};
+		0A8AEB921CA2734C00D81654 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A8AEB9B1CA2734C00D81654 /* Main.storyboard */,
+				0A8AEB9E1CA2734C00D81654 /* Assets.xcassets */,
+				0A8AEBA01CA2734C00D81654 /* LaunchScreen.storyboard */,
+				0A8AEBA31CA2734C00D81654 /* Info.plist */,
+				0A8AEB931CA2734C00D81654 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A8AEBAB1CA2734C00D81654 /* PanGestureRecognizerTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A8AEBAC1CA2734C00D81654 /* PanGestureRecognizerTests.m */,
+				0A8AEBAE1CA2734C00D81654 /* Info.plist */,
+			);
+			path = PanGestureRecognizerTests;
+			sourceTree = "<group>";
+		};
+		0A8AEBB61CA2734C00D81654 /* PanGestureRecognizerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0A8AEBB71CA2734C00D81654 /* PanGestureRecognizerUITests.m */,
+				0A8AEBB91CA2734C00D81654 /* Info.plist */,
+			);
+			path = PanGestureRecognizerUITests;
+			sourceTree = "<group>";
+		};
+		0A8AEBCF1CA275D500D81654 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				0A8AEB951CA2734C00D81654 /* AppDelegate.h */,
+				0A8AEB961CA2734C00D81654 /* AppDelegate.m */,
+				0A8AEB981CA2734C00D81654 /* ViewController.h */,
+				0A8AEB991CA2734C00D81654 /* ViewController.m */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A8AEB8E1CA2734C00D81654 /* PanGestureRecognizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A8AEBBC1CA2734C00D81654 /* Build configuration list for PBXNativeTarget "PanGestureRecognizer" */;
+			buildPhases = (
+				0A8AEB8B1CA2734C00D81654 /* Sources */,
+				0A8AEB8C1CA2734C00D81654 /* Frameworks */,
+				0A8AEB8D1CA2734C00D81654 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PanGestureRecognizer;
+			productName = PanGestureRecognizer;
+			productReference = 0A8AEB8F1CA2734C00D81654 /* PanGestureRecognizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A8AEBA71CA2734C00D81654 /* PanGestureRecognizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A8AEBBF1CA2734C00D81654 /* Build configuration list for PBXNativeTarget "PanGestureRecognizerTests" */;
+			buildPhases = (
+				0A8AEBA41CA2734C00D81654 /* Sources */,
+				0A8AEBA51CA2734C00D81654 /* Frameworks */,
+				0A8AEBA61CA2734C00D81654 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A8AEBAA1CA2734C00D81654 /* PBXTargetDependency */,
+			);
+			name = PanGestureRecognizerTests;
+			productName = PanGestureRecognizerTests;
+			productReference = 0A8AEBA81CA2734C00D81654 /* PanGestureRecognizerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0A8AEBB21CA2734C00D81654 /* PanGestureRecognizerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A8AEBC21CA2734C00D81654 /* Build configuration list for PBXNativeTarget "PanGestureRecognizerUITests" */;
+			buildPhases = (
+				0A8AEBAF1CA2734C00D81654 /* Sources */,
+				0A8AEBB01CA2734C00D81654 /* Frameworks */,
+				0A8AEBB11CA2734C00D81654 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A8AEBB51CA2734C00D81654 /* PBXTargetDependency */,
+			);
+			name = PanGestureRecognizerUITests;
+			productName = PanGestureRecognizerUITests;
+			productReference = 0A8AEBB31CA2734C00D81654 /* PanGestureRecognizerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A8AEB871CA2734C00D81654 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = LI;
+				TargetAttributes = {
+					0A8AEB8E1CA2734C00D81654 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					0A8AEBA71CA2734C00D81654 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 0A8AEB8E1CA2734C00D81654;
+					};
+					0A8AEBB21CA2734C00D81654 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 0A8AEB8E1CA2734C00D81654;
+					};
+				};
+			};
+			buildConfigurationList = 0A8AEB8A1CA2734C00D81654 /* Build configuration list for PBXProject "PanGestureRecognizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A8AEB861CA2734C00D81654;
+			productRefGroup = 0A8AEB901CA2734C00D81654 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A8AEB8E1CA2734C00D81654 /* PanGestureRecognizer */,
+				0A8AEBA71CA2734C00D81654 /* PanGestureRecognizerTests */,
+				0A8AEBB21CA2734C00D81654 /* PanGestureRecognizerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A8AEB8D1CA2734C00D81654 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A8AEBA21CA2734C00D81654 /* LaunchScreen.storyboard in Resources */,
+				0A8AEB9F1CA2734C00D81654 /* Assets.xcassets in Resources */,
+				0A8AEB9D1CA2734C00D81654 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A8AEBA61CA2734C00D81654 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A8AEBB11CA2734C00D81654 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A8AEB8B1CA2734C00D81654 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A8AEB9A1CA2734C00D81654 /* ViewController.m in Sources */,
+				0A8AEBCE1CA275CD00D81654 /* CustomNavigationController.m in Sources */,
+				0A8AEBE41CA2D13600D81654 /* CustomTabbarController.m in Sources */,
+				0A8AEBD81CA2766E00D81654 /* ThirdViewController.m in Sources */,
+				0A8AEBDB1CA2767F00D81654 /* FourViewController.m in Sources */,
+				0A8AEB971CA2734C00D81654 /* AppDelegate.m in Sources */,
+				0A8AEBDE1CA27EA700D81654 /* NextViewController.m in Sources */,
+				0A8AEBD51CA2765E00D81654 /* SecondViewController.m in Sources */,
+				0A8AEBC71CA274D900D81654 /* RootViewController.m in Sources */,
+				0A8AEB941CA2734C00D81654 /* main.m in Sources */,
+				0A8AEBD21CA2763E00D81654 /* HomeViewController.m in Sources */,
+				0A8AEBE11CA287A200D81654 /* TheNextViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A8AEBA41CA2734C00D81654 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A8AEBAD1CA2734C00D81654 /* PanGestureRecognizerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A8AEBAF1CA2734C00D81654 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A8AEBB81CA2734C00D81654 /* PanGestureRecognizerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A8AEBAA1CA2734C00D81654 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A8AEB8E1CA2734C00D81654 /* PanGestureRecognizer */;
+			targetProxy = 0A8AEBA91CA2734C00D81654 /* PBXContainerItemProxy */;
+		};
+		0A8AEBB51CA2734C00D81654 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A8AEB8E1CA2734C00D81654 /* PanGestureRecognizer */;
+			targetProxy = 0A8AEBB41CA2734C00D81654 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0A8AEB9B1CA2734C00D81654 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A8AEB9C1CA2734C00D81654 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0A8AEBA01CA2734C00D81654 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A8AEBA11CA2734C00D81654 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A8AEBBA1CA2734C00D81654 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A8AEBBB1CA2734C00D81654 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A8AEBBD1CA2734C00D81654 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PanGestureRecognizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = li.PanGestureRecognizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0A8AEBBE1CA2734C00D81654 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PanGestureRecognizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = li.PanGestureRecognizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0A8AEBC01CA2734C00D81654 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PanGestureRecognizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = li.PanGestureRecognizerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PanGestureRecognizer.app/PanGestureRecognizer";
+			};
+			name = Debug;
+		};
+		0A8AEBC11CA2734C00D81654 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PanGestureRecognizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = li.PanGestureRecognizerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PanGestureRecognizer.app/PanGestureRecognizer";
+			};
+			name = Release;
+		};
+		0A8AEBC31CA2734C00D81654 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PanGestureRecognizerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = li.PanGestureRecognizerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PanGestureRecognizer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		0A8AEBC41CA2734C00D81654 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PanGestureRecognizerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = li.PanGestureRecognizerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PanGestureRecognizer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A8AEB8A1CA2734C00D81654 /* Build configuration list for PBXProject "PanGestureRecognizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A8AEBBA1CA2734C00D81654 /* Debug */,
+				0A8AEBBB1CA2734C00D81654 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A8AEBBC1CA2734C00D81654 /* Build configuration list for PBXNativeTarget "PanGestureRecognizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A8AEBBD1CA2734C00D81654 /* Debug */,
+				0A8AEBBE1CA2734C00D81654 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0A8AEBBF1CA2734C00D81654 /* Build configuration list for PBXNativeTarget "PanGestureRecognizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A8AEBC01CA2734C00D81654 /* Debug */,
+				0A8AEBC11CA2734C00D81654 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0A8AEBC21CA2734C00D81654 /* Build configuration list for PBXNativeTarget "PanGestureRecognizerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A8AEBC31CA2734C00D81654 /* Debug */,
+				0A8AEBC41CA2734C00D81654 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A8AEB871CA2734C00D81654 /* Project object */;
+}
