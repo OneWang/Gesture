@@ -126,6 +126,8 @@
 //    [data writeToFile:[NSString stringWithFormat:@"/Users/li/Desktop/%zd.png",self.viewControllers.count] atomically:YES];
     
     [self.images addObject:image];
+    //结束上下文
+    UIGraphicsEndImageContext();
 }
 
 - (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated

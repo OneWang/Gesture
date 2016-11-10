@@ -24,6 +24,9 @@
 		0A8AEBDE1CA27EA700D81654 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8AEBDD1CA27EA700D81654 /* NextViewController.m */; };
 		0A8AEBE11CA287A200D81654 /* TheNextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8AEBE01CA287A200D81654 /* TheNextViewController.m */; };
 		0A8AEBE41CA2D13600D81654 /* CustomTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8AEBE31CA2D13600D81654 /* CustomTabbarController.m */; };
+		0ACD69021D3DCF0E00C61EAF /* MyTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ACD69011D3DCF0E00C61EAF /* MyTabBar.m */; };
+		0ACD69051D3DD3B900C61EAF /* MyTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ACD69041D3DD3B900C61EAF /* MyTabBarButton.m */; };
+		0ACD690B1D3E113500C61EAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ACD690A1D3E113500C61EAF /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +81,11 @@
 		0A8AEBE01CA287A200D81654 /* TheNextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheNextViewController.m; sourceTree = "<group>"; };
 		0A8AEBE21CA2D13600D81654 /* CustomTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTabbarController.h; sourceTree = "<group>"; };
 		0A8AEBE31CA2D13600D81654 /* CustomTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTabbarController.m; sourceTree = "<group>"; };
+		0ACD69001D3DCF0E00C61EAF /* MyTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTabBar.h; sourceTree = "<group>"; };
+		0ACD69011D3DCF0E00C61EAF /* MyTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTabBar.m; sourceTree = "<group>"; };
+		0ACD69031D3DD3B900C61EAF /* MyTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTabBarButton.h; sourceTree = "<group>"; };
+		0ACD69041D3DD3B900C61EAF /* MyTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTabBarButton.m; sourceTree = "<group>"; };
+		0ACD690A1D3E113500C61EAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +136,7 @@
 		0A8AEB911CA2734C00D81654 /* PanGestureRecognizer */ = {
 			isa = PBXGroup;
 			children = (
+				0ACD690A1D3E113500C61EAF /* Assets.xcassets */,
 				0A8AEBCF1CA275D500D81654 /* Other */,
 				0A8AEBC51CA274D900D81654 /* RootViewController.h */,
 				0A8AEBC61CA274D900D81654 /* RootViewController.m */,
@@ -148,6 +157,10 @@
 				0A8AEBD91CA2767F00D81654 /* FourViewController.h */,
 				0A8AEBDA1CA2767F00D81654 /* FourViewController.m */,
 				0A8AEB921CA2734C00D81654 /* Supporting Files */,
+				0ACD69001D3DCF0E00C61EAF /* MyTabBar.h */,
+				0ACD69011D3DCF0E00C61EAF /* MyTabBar.m */,
+				0ACD69031D3DD3B900C61EAF /* MyTabBarButton.h */,
+				0ACD69041D3DD3B900C61EAF /* MyTabBarButton.m */,
 			);
 			path = PanGestureRecognizer;
 			sourceTree = "<group>";
@@ -298,6 +311,7 @@
 			files = (
 				0A8AEBA21CA2734C00D81654 /* LaunchScreen.storyboard in Resources */,
 				0A8AEB9F1CA2734C00D81654 /* Assets.xcassets in Resources */,
+				0ACD690B1D3E113500C61EAF /* Assets.xcassets in Resources */,
 				0A8AEB9D1CA2734C00D81654 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -324,6 +338,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A8AEB9A1CA2734C00D81654 /* ViewController.m in Sources */,
+				0ACD69051D3DD3B900C61EAF /* MyTabBarButton.m in Sources */,
 				0A8AEBCE1CA275CD00D81654 /* CustomNavigationController.m in Sources */,
 				0A8AEBE41CA2D13600D81654 /* CustomTabbarController.m in Sources */,
 				0A8AEBD81CA2766E00D81654 /* ThirdViewController.m in Sources */,
@@ -332,6 +347,7 @@
 				0A8AEBDE1CA27EA700D81654 /* NextViewController.m in Sources */,
 				0A8AEBD51CA2765E00D81654 /* SecondViewController.m in Sources */,
 				0A8AEBC71CA274D900D81654 /* RootViewController.m in Sources */,
+				0ACD69021D3DCF0E00C61EAF /* MyTabBar.m in Sources */,
 				0A8AEB941CA2734C00D81654 /* main.m in Sources */,
 				0A8AEBD21CA2763E00D81654 /* HomeViewController.m in Sources */,
 				0A8AEBE11CA287A200D81654 /* TheNextViewController.m in Sources */,
@@ -560,6 +576,7 @@
 				0A8AEBBE1CA2734C00D81654 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A8AEBBF1CA2734C00D81654 /* Build configuration list for PBXNativeTarget "PanGestureRecognizerTests" */ = {
 			isa = XCConfigurationList;
@@ -568,6 +585,7 @@
 				0A8AEBC11CA2734C00D81654 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A8AEBC21CA2734C00D81654 /* Build configuration list for PBXNativeTarget "PanGestureRecognizerUITests" */ = {
 			isa = XCConfigurationList;
@@ -576,6 +594,7 @@
 				0A8AEBC41CA2734C00D81654 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
